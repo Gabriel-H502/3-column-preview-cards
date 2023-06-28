@@ -2,6 +2,8 @@
 
 Essa é minha solução para o [Desafio do componente do cartão de visualização de 3 colunas no Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Os desafios do Frontend Mentor lhe ajudam a aprimorar habilidades de codificação construindo projetos realistas. 
 
+[Clique aqui](README.md) para retornar a versão em inglês.
+
 ## Tabela de conteúdos
 
 - [Overview](#overview)
@@ -26,8 +28,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- Solution URL: [Solution](#)
-- Live Site URL: [Live Site](#)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/3-column-preview-cards-28ZKvdV4nH)
+- Live Site URL: [Live Site](https://gabriel-h502.github.io/3-column-preview-cards/)
 
 ## Feito com
 
