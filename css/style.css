@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --orange: #e38826;
+    --cyan: #006970;
+    --darkcyan: #004241;
+    --transparentwhite: #ffffffbf;
+    --lightgray: #f2f2f2;
+}
+
+body {
+    background-color: var(--lightgray);
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+@media (max-width: 970px) {
+    .container {
+        margin: 100px;
+        flex-direction: column;
+        width: 375px;
+    }
+
+    .sedan-card {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0 !important;
+    }
+    
+    .luxury-card {
+        border-top-right-radius: 0 !important;
+        border-bottom-left-radius: 10px;
+    }
+}
+
+.container {
+    display: flex;
+    max-width: 970px;
+}
+
+.cards {
+    padding: 50px;
+    padding-right: 65px;
+}
+
+.sedan-card {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: var(--orange);
+}
+
+.suv-card {
+    background-color: var(--cyan);
+}
+
+.luxury-card {
+    background-color: var(--darkcyan);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.icons {
+    width: 50px;
+}
+
+.car-name {
+    font-family: "Big Shoulders Display", cursive;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    color: var(--lightgray);
+    margin: 20px 0;
+}
+
+.description {
+    font-family: "Lexend Deca", sans-serif;
+    color: var(--transparentwhite);
+    margin-bottom: 70px;
+    line-height: 1.9;
+}
+
+.learn-more {
+    background-color: var(--lightgray);
+    border: 2px solid var(--lightgray);
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 0.9em;
+    transition: 0.1s ease-in-out;
+}
+
+.sedan-card .learn-more {
+    color: var(--orange);
+}
+
+.suv-card .learn-more {
+    color: var(--cyan);
+}
+
+.luxury-card .learn-more {
+    color: var(--darkcyan);
+}
+
+.learn-more:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+}
